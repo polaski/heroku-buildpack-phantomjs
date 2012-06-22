@@ -10,7 +10,7 @@ VERSION="1.6.0"
 S3_BUCKET="vladimirpolaski"
 
 # s3 packages
-FILE_NAME="buildpack-phantomjs-${VERSION}.tar.bz2"
+FILE_NAME="buildpack-phantomjs-${VERSION}.tar.gz"
 BUILDPACK_PHANTOMJS_PACKAGE="http://${S3_BUCKET}.s3.amazonaws.com/${FILE_NAME}"
 
 mkdir -p $CACHE_DIR
